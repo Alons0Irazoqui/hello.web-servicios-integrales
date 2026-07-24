@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Full Torque México — Venta de Maquinaria Pesada, Camiones y Vehículos en Morelos</title>
+  <meta name="description" content="Full Torque México: venta de maquinaria pesada, retroexcavadoras CAT, camiones, camionetas, autos, SUV, casas rodantes y equipo industrial en Tlaltizapán, Morelos. Unidades reales, atención directa. Precios solo por WhatsApp o llamada.">
+  <meta name="keywords" content="venta de maquinaria pesada Morelos, retroexcavadoras CAT, venta de camiones Tlaltizapán, maquinaria para construcción México, venta de camionetas Morelos, casas rodantes México, Full Torque México">
+  <meta property="og:title" content="Full Torque México — Máquinas Que Trabajan En Serio">
+  <meta property="og:description" content="Venta de maquinaria pesada, camiones, camionetas, autos, casas rodantes y equipo industrial. Unidades reales, atención directa, en Tlaltizapán, Morelos.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="imagenes/excavadora-cat-320e.jpeg">
+  <link rel="icon" type="image/png" href="imagenes/logo-full-torque.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader" aria-hidden="true">
+  <div class="ld-logo">
+    <img src="imagenes/logo-full-torque.png" alt="" class="ld-logo-img">
+    <div class="ld-ring"></div>
+  </div>
+  <div class="ld-brand">
+    <p class="ld-name">FULL <em>TORQUE</em></p>
+    <p class="ld-tag">Máquinas que trabajan en serio</p>
+  </div>
+  <div class="ld-progress">
+    <div class="ld-track"><div class="ld-fill"></div></div>
+    <p class="ld-note">Cargando</p>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav id="nav" role="navigation" aria-label="Menú principal">
+  <div class="nav-wrap">
+    <a href="#" class="logo" aria-label="Full Torque México">
+      <img src="imagenes/logo-full-torque.png" alt="Full Torque México" class="logo-img">
+      <div class="logo-word">FULL <em>TORQUE</em></div>
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="#about">Nosotros</a></li>
+      <li><a href="#services">Servicios</a></li>
+      <li><a href="#inventario">Inventario</a></li>
+      <li><a href="#why">Ventajas</a></li>
+      <li><a href="#contact" class="nav-cta">Cotizar Ahora</a></li>
+    </ul>
+    <button class="hamburger" id="ham" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div id="mob" class="mob-menu" role="navigation" aria-label="Menú móvil">
+  <a href="#about">Nosotros</a>
+  <a href="#services">Servicios</a>
+  <a href="#inventario">Inventario</a>
+  <a href="#why">Ventajas</a>
+  <a href="#contact">Cotizar Ahora</a>
+</div>
+
+<main>
+
+<!-- HERO -->
+<section id="hero" aria-label="Encabezado principal">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-ov" aria-hidden="true"></div>
+  <canvas id="pcanvas" class="particle-canvas" aria-hidden="true"></canvas>
+
+  <div class="hero-body">
+    <div class="wrap">
+      <p class="hero-eyebrow">Full Torque México · Tlaltizapán, Morelos</p>
+      <h1 class="hero-h1">
+        <span class="h1-line"><span class="h1-inner">Maquinaria Pesada,</span></span>
+        <span class="h1-line"><span class="h1-inner">Camiones y Vehículos</span></span>
+        <span class="h1-line h1-accent"><span class="h1-inner">Que Trabajan En Serio</span></span>
+      </h1>
+      <p class="hero-typewriter" aria-label="Categorías de equipo">
+        <span class="tw-label">Vendemos:</span>
+        <span class="tw-text" id="twText"></span><span class="tw-cursor" aria-hidden="true">|</span>
+      </p>
+      <p class="hero-p">
+        Unidades reales, con fotos y videos verificados, información clara y atención directa — sin intermediarios. Precios y disponibilidad solo por WhatsApp o llamada directa.
+      </p>
+      <div class="hero-btns">
+        <a href="https://wa.me/527771327400?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20su%20inventario%20de%20Full%20Torque%20M%C3%A9xico" target="_blank" rel="noopener noreferrer" class="btn-primary">
+          Cotizar por WhatsApp
+          <svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <a href="#inventario" class="btn-secondary">Ver Inventario</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-stats" aria-label="Cifras clave">
+    <div class="wrap">
+      <div class="stats-row">
+        <div class="stat-col">
+          <span class="stat-val" data-hero-count="9" data-prefix="+" data-suffix="">+0</span>
+          <span class="stat-lbl">Categorías de equipo</span>
+        </div>
+        <div class="stat-col">
+          <span class="stat-val" data-hero-count="6" data-prefix="" data-suffix="">0</span>
+          <span class="stat-lbl">Estados de cobertura</span>
+        </div>
+        <div class="stat-col">
+          <span class="stat-val" data-hero-count="100" data-prefix="" data-suffix="%">0%</span>
+          <span class="stat-lbl">Unidades verificadas</span>
+        </div>
+        <div class="stat-col">
+          <span class="stat-val">Tlaltizapán</span>
+          <span class="stat-lbl">Base de operaciones</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-deco" aria-hidden="true">
+    <div class="hero-orb hero-orb--1"></div>
+    <div class="hero-orb hero-orb--2"></div>
+    <div class="hero-beam"></div>
+  </div>
+  <div class="hero-badge" aria-hidden="true">
+    <span class="hb-dot"></span>
+    <span class="hb-text">Máquinas que trabajan en serio</span>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<section id="trust" aria-label="Categorías que manejamos">
+  <div class="trust-bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="trust-row rev">
+      <p class="trust-label">Lo que manejamos</p>
+      <div class="trust-chips">
+        <span class="trust-chip">Maquinaria Pesada</span>
+        <span class="trust-chip">Camiones y Pickups</span>
+        <span class="trust-chip">Autos y SUV</span>
+        <span class="trust-chip">Maquinaria Agrícola</span>
+        <span class="trust-chip">Equipo Industrial</span>
+        <span class="trust-chip">Casas Rodantes</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section bg-white">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-img-wrap rev from-l">
+        <div class="about-img-main">
+          <img
+            src="imagenes/ford-f450-cabina.jpeg"
+            alt="Cabina e interior en excelente estado de una unidad Ford F-450 disponible en Full Torque México" loading="lazy">
+        </div>
+        <div class="about-accent">
+          <p class="a-num">100%</p>
+          <p class="a-lbl">Unidades revisadas</p>
+        </div>
+      </div>
+      <div class="about-text rev">
+        <p class="eyebrow">Quiénes somos</p>
+        <h2 class="heading heading--shine">Unidades Reales, Trato Directo</h2>
+        <p>Full Torque México es un negocio de venta de vehículos, maquinaria pesada e industrial con base en Tlaltizapán, Morelos. Publicamos unidades reales con atención directa, información clara y trato serio: lo que ves en la publicación es exactamente lo que está disponible.</p>
+        <p>Trabajamos con marcas reconocidas como Caterpillar, CASE, Volvo, Michigan, Sandvik, Doosan, Ford, Dodge, GMC y Link-Belt, entre otras, ofreciendo desde autos y camionetas hasta excavadoras, retroexcavadoras, cargadores frontales, equipo industrial y casas rodantes.</p>
+        <div class="about-stats">
+          <div class="a-stat">
+            <p class="a-stat-n" data-count="9" data-prefix="+" data-suffix=""></p>
+            <p class="a-stat-l">Categorías de equipo</p>
+          </div>
+          <div class="a-stat">
+            <p class="a-stat-n" data-count="6" data-prefix="" data-suffix=""></p>
+            <p class="a-stat-l">Estados con cobertura</p>
+          </div>
+          <div class="a-stat">
+            <p class="a-stat-n" data-count="100" data-prefix="" data-suffix="%"></p>
+            <p class="a-stat-l">Fotos y videos reales</p>
+          </div>
+          <div class="a-stat">
+            <p class="a-stat-n">Mor.</p>
+            <p class="a-stat-l">Sede en Tlaltizapán</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section bg-off">
+  <div class="wrap">
+    <div class="section-head section-head--center rev">
+      <p class="eyebrow">Lo que hacemos</p>
+      <h2 class="heading heading--shine">Venta de Maquinaria y Vehículos, Sin Complicaciones</h2>
+      <p class="sub">Un catálogo amplio de equipo confiable, con información clara para que decidas con seguridad.</p>
+    </div>
+    <div class="svc-grid">
+
+      <div class="svc-card rev d1">
+        <span class="svc-num" aria-hidden="true">01</span>
+        <div class="svc-icon ic-gold">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D4A62B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M2 20h20"/>
+            <path d="M4 20V10l4-2 4 3 4-3 4 2v10"/>
+            <path d="M9 20v-5h4v5"/>
+          </svg>
+        </div>
+        <h3>Maquinaria Pesada para Construcción</h3>
+        <p>Excavadoras y retroexcavadoras CAT, cargadores frontales Michigan y equipo listo para obra civil, urbanización y movimiento de tierra.</p>
+        <p class="svc-models">Ej. CAT 320E · CAT 416D · Michigan L90</p>
+        <div class="svc-tags">
+          <span class="tag tag-gold">Excavadoras</span>
+          <span class="tag tag-gold">Cargadores frontales</span>
+          <span class="tag tag-gold">Obra civil</span>
+        </div>
+      </div>
+
+      <div class="svc-card rev d2">
+        <span class="svc-num" aria-hidden="true">02</span>
+        <div class="svc-icon ic-gold">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D4A62B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="1" y="7" width="15" height="10" rx="1"/>
+            <path d="M16 10h4l3 4v3h-7v-7z"/>
+            <circle cx="5.5" cy="18.5" r="2.5"/>
+            <circle cx="18.5" cy="18.5" r="2.5"/>
+          </svg>
+        </div>
+        <h3>Camiones y Camionetas de Trabajo</h3>
+        <p>Tractocamiones, chasis cabina, pickups y unidades de carga, ideales para empresas, contratistas y transporte pesado.</p>
+        <p class="svc-models">Ej. Peterbilt · Ford F-450 · Ford F-150 · Dodge RAM</p>
+        <div class="svc-tags">
+          <span class="tag tag-gold">Tractocamiones</span>
+          <span class="tag tag-gold">Chasis cabina</span>
+          <span class="tag tag-gold">Pickups</span>
+        </div>
+      </div>
+
+      <div class="svc-card rev d3">
+        <span class="svc-num" aria-hidden="true">03</span>
+        <div class="svc-icon ic-gold">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D4A62B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5 17h14M5 17a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm14 0a2 2 0 1 0 4 0 2 2 0 0 0-4 0zM3 17V9l2-4h11l3 4h2v8"/>
+          </svg>
+        </div>
+        <h3>Autos, SUV y Camionetas</h3>
+        <p>Venta de SUV y camionetas familiares y ejecutivas, revisadas y listas para entrega, con equipamiento completo.</p>
+        <p class="svc-models">Ej. GMC Yukon Denali</p>
+        <div class="svc-tags">
+          <span class="tag tag-gold">SUV</span>
+          <span class="tag tag-gold">Ejecutivas</span>
+          <span class="tag tag-gold">Familiares</span>
+        </div>
+      </div>
+
+      <div class="svc-card rev d4">
+        <span class="svc-num" aria-hidden="true">04</span>
+        <div class="svc-icon ic-gold">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D4A62B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/>
+            <circle cx="12" cy="12" r="4"/>
+          </svg>
+        </div>
+        <h3>Maquinaria Agrícola</h3>
+        <p>Equipos para actividades agrícolas con rendimiento, potencia y confiabilidad para el campo.</p>
+        <p class="svc-models">Ej. Tractores y equipo de labranza</p>
+        <div class="svc-tags">
+          <span class="tag tag-gold">Rendimiento</span>
+          <span class="tag tag-gold">Campo</span>
+          <span class="tag tag-gold">Confiabilidad</span>
+        </div>
+      </div>
+
+      <div class="svc-card rev d5">
+        <span class="svc-num" aria-hidden="true">05</span>
+        <div class="svc-icon ic-gold">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D4A62B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="9"/>
+            <path d="M12 7v5l3 3"/>
+          </svg>
+        </div>
+        <h3>Equipo Industrial y Compresores</h3>
+        <p>Compresores, equipo de perforación y maquinaria de alto rendimiento para minería, trituración y manejo de materiales a granel.</p>
+        <p class="svc-models">Ej. Doosan P185 · Sandvik DP1500i · Link-Belt</p>
+        <div class="svc-tags">
+          <span class="tag tag-gold">Minería</span>
+          <span class="tag tag-gold">Perforación</span>
+          <span class="tag tag-gold">Industrial</span>
+        </div>
+      </div>
+
+      <div class="svc-card rev d6">
+        <span class="svc-num" aria-hidden="true">06</span>
+        <div class="svc-icon ic-gold">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D4A62B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M3 12l2-6h11l3 6"/>
+            <path d="M3 12v6h2M21 12v6h-2M8 18h8"/>
+            <circle cx="7" cy="18" r="1.5"/>
+            <circle cx="17" cy="18" r="1.5"/>
+          </svg>
+        </div>
+        <h3>Casas Rodantes</h3>
+        <p>Casas rodantes y remolques tipo toy hauler para viajar, vivir o trabajar, con acabados e interiores de calidad.</p>
+        <p class="svc-models">Ej. Trailers tipo Momentum</p>
+        <div class="svc-tags">
+          <span class="tag tag-gold">Viajar</span>
+          <span class="tag tag-gold">Vivir</span>
+          <span class="tag tag-gold">Trabajar</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- INVENTARIO -->
+<section id="inventario" class="section bg-white">
+  <div class="wrap">
+    <div class="prod-header rev">
+      <div>
+        <p class="eyebrow">Inventario Disponible</p>
+        <h2 class="heading heading--shine">Unidades Listas para Trabajar</h2>
+      </div>
+      <a href="#contact" class="btn-outline">Cotizar una Unidad</a>
+    </div>
+    <div class="prod-grid">
+
+      <div class="prod-card rev d1">
+        <div class="prod-photo">
+          <img src="imagenes/excavadora-cat-320e.jpeg" alt="Excavadora CAT 320E disponible en Full Torque México" loading="lazy">
+        </div>
+        <h3>Excavadora CAT 320E</h3>
+        <p>Excavadora de orugas de alto rendimiento para excavación, demolición y manejo de materiales.</p>
+        <a class="prod-pill" href="https://wa.me/527771327400?text=Hola%2C%20me%20interesa%20la%20Excavadora%20CAT%20320E%2C%20%C2%BFme%20podr%C3%ADan%20dar%20informaci%C3%B3n%20y%20precio%3F" target="_blank" rel="noopener noreferrer">Preguntar precio</a>
+      </div>
+
+      <div class="prod-card rev d2">
+        <div class="prod-photo">
+          <img src="imagenes/cat-416d-detalle.jpeg" alt="Retroexcavadora CAT 416D disponible en Full Torque México, modelo 2002" loading="lazy">
+        </div>
+        <h3>Retroexcavadora CAT 416D</h3>
+        <p>Modelo 2002 · 4x2 · Cabina sencilla, lista para obra y movimiento de tierra.</p>
+        <a class="prod-pill" href="https://wa.me/527771327400?text=Hola%2C%20me%20interesa%20la%20Retroexcavadora%20CAT%20416D%2C%20%C2%BFme%20podr%C3%ADan%20dar%20informaci%C3%B3n%20y%20precio%3F" target="_blank" rel="noopener noreferrer">Preguntar precio</a>
+      </div>
+
+      <div class="prod-card rev d3">
+        <div class="prod-photo">
+          <img src="imagenes/camion-peterbilt.jpeg" alt="Tractocamión Peterbilt disponible en Full Torque México" loading="lazy">
+        </div>
+        <h3>Tractocamión Peterbilt</h3>
+        <p>Listo para trabajo pesado y transporte de carga de largo alcance.</p>
+        <a class="prod-pill" href="https://wa.me/527771327400?text=Hola%2C%20me%20interesa%20el%20Tractocami%C3%B3n%20Peterbilt%2C%20%C2%BFme%20podr%C3%ADan%20dar%20informaci%C3%B3n%20y%20precio%3F" target="_blank" rel="noopener noreferrer">Preguntar precio</a>
+      </div>
+
+      <div class="prod-card rev d4">
+        <div class="prod-photo">
+          <img src="imagenes/ford-f450-lateral.jpeg" alt="Ford F-450 XL chasis cabina 2017 en venta en Full Torque México" loading="lazy">
+        </div>
+        <h3>Ford F-450 XL Chasis Cabina</h3>
+        <p>2017 · Motor V10 6.8L · Capacidad de carga hasta 6 toneladas.</p>
+        <a class="prod-pill" href="https://wa.me/527771327400?text=Hola%2C%20me%20interesa%20la%20Ford%20F-450%20XL%20Chasis%20Cabina%2C%20%C2%BFme%20podr%C3%ADan%20dar%20informaci%C3%B3n%20y%20precio%3F" target="_blank" rel="noopener noreferrer">Preguntar precio</a>
+      </div>
+
+      <div class="prod-card rev d5">
+        <div class="prod-photo">
+          <img src="imagenes/dodge-ram-1500-blanca.jpeg" alt="Dodge RAM 1500 disponible en Full Torque México, Tlaltizapán Morelos" loading="lazy">
+        </div>
+        <h3>Dodge RAM 1500</h3>
+        <p>V6 3.6L Pentastar · Cabina regular, lista para trabajar.</p>
+        <a class="prod-pill" href="https://wa.me/527771327400?text=Hola%2C%20me%20interesa%20la%20Dodge%20RAM%201500%2C%20%C2%BFme%20podr%C3%ADan%20dar%20informaci%C3%B3n%20y%20precio%3F" target="_blank" rel="noopener noreferrer">Preguntar precio</a>
+      </div>
+
+      <div class="prod-card rev d6">
+        <div class="prod-photo">
+          <img src="imagenes/ford-f150-4x4-blanca.jpeg" alt="Ford F-150 4x4 doble cabina disponible en Full Torque México" loading="lazy">
+        </div>
+        <h3>Ford F-150 4x4</h3>
+        <p>Doble cabina, tracción 4x4, lista para trabajo pesado.</p>
+        <a class="prod-pill" href="https://wa.me/527771327400?text=Hola%2C%20me%20interesa%20la%20Ford%20F-150%204x4%2C%20%C2%BFme%20podr%C3%ADan%20dar%20informaci%C3%B3n%20y%20precio%3F" target="_blank" rel="noopener noreferrer">Preguntar precio</a>
+      </div>
+
+      <div class="prod-card rev d1">
+        <div class="prod-photo">
+          <img src="imagenes/gmc-yukon-denali-lateral.jpeg" alt="GMC Yukon Denali, SUV ejecutiva disponible en Full Torque México" loading="lazy">
+        </div>
+        <h3>GMC Yukon Denali</h3>
+        <p>SUV ejecutiva, interiores de lujo y equipamiento completo.</p>
+        <a class="prod-pill" href="https://wa.me/527771327400?text=Hola%2C%20me%20interesa%20la%20GMC%20Yukon%20Denali%2C%20%C2%BFme%20podr%C3%ADan%20dar%20informaci%C3%B3n%20y%20precio%3F" target="_blank" rel="noopener noreferrer">Preguntar precio</a>
+      </div>
+
+      <div class="prod-card rev d2">
+        <div class="prod-photo">
+          <img src="imagenes/rv-toyhauler-exterior.jpeg" alt="Casa rodante tipo toy hauler disponible en Full Torque México" loading="lazy">
+        </div>
+        <h3>Casa Rodante Toy Hauler</h3>
+        <p>Equipada para viajar, vivir o trabajar con toda la comodidad.</p>
+        <a class="prod-pill" href="https://wa.me/527771327400?text=Hola%2C%20me%20interesa%20la%20Casa%20Rodante%20Toy%20Hauler%2C%20%C2%BFme%20podr%C3%ADan%20dar%20informaci%C3%B3n%20y%20precio%3F" target="_blank" rel="noopener noreferrer">Preguntar precio</a>
+      </div>
+
+    </div>
+    <p class="prod-note rev">No publicamos precios en la página — escríbenos por WhatsApp o llámanos y con gusto te decimos el precio y la disponibilidad de cada unidad.</p>
+  </div>
+</section>
+
+<!-- WHY -->
+<section id="why" class="section bg-navy">
+  <div class="why-bg" aria-hidden="true"></div>
+  <canvas id="pcanvasWhy" class="particle-canvas" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="why-grid">
+      <div class="why-img-wrap rev from-r">
+        <div class="why-img-main">
+          <img
+            src="imagenes/dodge-ram-1500.jpeg"
+            alt="Dodge RAM 1500 disponible en el patio de Full Torque México" loading="lazy">
+        </div>
+        <div class="why-img-badge">
+          <p class="wib-n">100%</p>
+          <p class="wib-l">Atención directa</p>
+        </div>
+      </div>
+      <div class="why-content rev">
+        <p class="eyebrow eyebrow--white">Por qué elegirnos</p>
+        <h2 class="heading heading--white heading--shine-dark">La Diferencia Full Torque</h2>
+        <p class="sub sub--white">Comprar maquinaria o un vehículo es una decisión importante — la hacemos simple y transparente.</p>
+        <div class="benefit-list">
+          <div class="benefit">
+            <div class="ben-icon ben-icon-g">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#E8C567" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="14" rx="2"/>
+                <path d="M8 21h8M12 17v4"/>
+                <path d="M8 8l3 3 5-5"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Unidades 100% Reales</h4>
+              <p>Fotos y videos verificados de cada equipo — lo que ves es exactamente lo que está disponible, sin sorpresas.</p>
+            </div>
+          </div>
+          <div class="benefit">
+            <div class="ben-icon ben-icon-g">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#E8C567" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Atención Directa</h4>
+              <p>Trato personal con nuestro equipo, sin intermediarios ni vendedores externos.</p>
+            </div>
+          </div>
+          <div class="benefit">
+            <div class="ben-icon ben-icon-g">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#E8C567" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="2" y1="12" x2="22" y2="12"/>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Cobertura Nacional</h4>
+              <p>Operamos y entregamos en Morelos, Chihuahua, Guerrero, Oaxaca, Chiapas y Campeche.</p>
+            </div>
+          </div>
+          <div class="benefit">
+            <div class="ben-icon ben-icon-g">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#E8C567" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="7" width="15" height="12" rx="1.5"/>
+                <path d="M17 10.5l5-2.5v9l-5-2.5"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Cita Presencial o Videollamada</h4>
+              <p>Ve la unidad en persona o por videollamada antes de decidir — tú eliges cómo revisarla.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CÓMO FUNCIONA -->
+<section id="numbers">
+  <div class="numbers-bg" aria-hidden="true"></div>
+  <div class="numbers-ov" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="section-head section-head--center rev">
+      <p class="eyebrow eyebrow--white">Cómo funciona</p>
+      <h2 class="heading heading--white heading--shine-dark">Cotiza tu Unidad en 4 Pasos</h2>
+    </div>
+    <div class="numbers-grid">
+      <div class="number-item rev d1">
+        <p class="num-v">01</p>
+        <p class="num-l">Cuéntanos qué equipo o vehículo buscas</p>
+      </div>
+      <div class="number-item rev d2">
+        <p class="num-v">02</p>
+        <p class="num-l">Te enviamos fotos, videos reales y el precio por WhatsApp</p>
+      </div>
+      <div class="number-item rev d3">
+        <p class="num-v">03</p>
+        <p class="num-l">Agenda una cita presencial o videollamada para revisar la unidad</p>
+      </div>
+      <div class="number-item rev d4">
+        <p class="num-v">04</p>
+        <p class="num-l">Cierra tu compra con atención directa y trato transparente</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERÍA -->
+<section id="galeria">
+  <canvas id="pcanvasGaleria" class="particle-canvas" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="brands-head rev">
+      <p class="eyebrow eyebrow--white">Nuestro Equipo</p>
+      <h2 class="heading heading--white heading--shine-dark">Conoce Nuestras Unidades</h2>
+      <p class="brands-sub">Así son los vehículos, máquinas y casas rodantes que cuidamos día a día.</p>
+    </div>
+    <div class="brands-grid">
+      <div class="brand-card rev d1">
+        <div class="brand-card-inner">
+          <img src="imagenes/rv-recamara.jpeg" alt="Recámara de casa rodante disponible en Full Torque México" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d2">
+        <div class="brand-card-inner">
+          <img src="imagenes/rv-bano.jpeg" alt="Baño con acabados de lujo de casa rodante en Full Torque México" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d3">
+        <div class="brand-card-inner">
+          <img src="imagenes/rv-cocina.jpeg" alt="Cocina y pantry de casa rodante en Full Torque México" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d4">
+        <div class="brand-card-inner">
+          <img src="imagenes/rv-pasillo.jpeg" alt="Interior de casa rodante en Full Torque México" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d1">
+        <div class="brand-card-inner">
+          <img src="imagenes/cabina-maquinaria-detalle.jpeg" alt="Cabina de maquinaria pesada revisada en Full Torque México" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d2">
+        <div class="brand-card-inner">
+          <img src="imagenes/cabina-komatsu-detalle.jpeg" alt="Detalle de cabina de maquinaria Komatsu en Full Torque México" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d3">
+        <div class="brand-card-inner">
+          <img src="imagenes/ford-f450-interior.jpeg" alt="Interior en excelente estado de Ford F-450" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d4">
+        <div class="brand-card-inner">
+          <img src="imagenes/gmc-yukon-denali-trasera.jpeg" alt="GMC Yukon Denali de Full Torque México, vista trasera" loading="lazy">
+        </div>
+      </div>
+    </div>
+    <p class="brands-note rev">Marcas con las que trabajamos: Caterpillar · Michigan · Sandvik · Doosan · Ford · Dodge · GMC · Link-Belt</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section bg-off">
+  <div class="wrap">
+    <div class="contact-grid">
+
+      <div class="contact-info rev from-l">
+        <div class="contact-info-bg" aria-hidden="true"></div>
+        <div class="contact-info-content">
+          <p class="eyebrow eyebrow--white">Contáctanos</p>
+          <h2 class="heading heading--white">Cotiza tu Próxima Unidad</h2>
+          <p class="sub sub--white" style="margin-bottom:32px">Cuéntanos qué buscas y te respondemos directo por WhatsApp o teléfono. Los precios solo los damos por estos medios.</p>
+          <div class="c-item">
+            <div class="c-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D4A62B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21.73 16.27z"/>
+              </svg>
+            </div>
+            <div>
+              <p class="c-label">Teléfono / WhatsApp</p>
+              <p class="c-value"><a href="tel:+527771327400">777 132 7400</a></p>
+            </div>
+          </div>
+          <div class="c-item">
+            <div class="c-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D4A62B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+              </svg>
+            </div>
+            <div>
+              <p class="c-label">WhatsApp directo</p>
+              <p class="c-value"><a href="https://wa.me/527771327400" target="_blank" rel="noopener noreferrer">+52 1 777 132 7400</a></p>
+            </div>
+          </div>
+          <div class="c-item">
+            <div class="c-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D4A62B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <div>
+              <p class="c-label">Ubicación</p>
+              <p class="c-value">Av. Independencia S/N, Tlaltizapán, Morelos, C.P. 62770</p>
+            </div>
+          </div>
+          <div class="c-item">
+            <div class="c-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D4A62B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <div>
+              <p class="c-label">Horario</p>
+              <p class="c-value">Atención todos los días — agenda tu cita presencial o videollamada</p>
+            </div>
+          </div>
+          <div class="c-item">
+            <div class="c-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D4A62B" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <path d="M8 21h8M15 6.5a3 3 0 1 1-6 0"/>
+              </svg>
+            </div>
+            <div>
+              <p class="c-label">Redes sociales</p>
+              <p class="c-value"><a href="https://www.facebook.com/share/1BbaxXNoHU/" target="_blank" rel="noopener noreferrer">Facebook: Full Torque México</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rev">
+        <div class="form-wrap">
+          <h3>Solicitar Información</h3>
+          <p class="form-sub">Te respondemos a la brevedad por WhatsApp o teléfono con precio y disponibilidad.</p>
+          <form id="cForm" novalidate>
+            <div class="frow">
+              <div class="fg">
+                <label class="fl" for="fn">Nombre completo *</label>
+                <input class="fi" type="text" id="fn" name="nombre" placeholder="Su nombre completo" required autocomplete="name">
+              </div>
+              <div class="fg">
+                <label class="fl" for="ft">Teléfono *</label>
+                <input class="fi" type="tel" id="ft" name="telefono" placeholder="+52 777 000 0000" required autocomplete="tel">
+              </div>
+            </div>
+            <div class="fg">
+              <label class="fl" for="fs">Tipo de equipo que buscas *</label>
+              <select class="fi" id="fs" name="tipo" required>
+                <option value="">Seleccione una opción</option>
+                <option value="Maquinaria pesada">Maquinaria pesada</option>
+                <option value="Camiones y camionetas de trabajo">Camiones y camionetas de trabajo</option>
+                <option value="Autos y SUV">Autos y SUV</option>
+                <option value="Maquinaria agrícola">Maquinaria agrícola</option>
+                <option value="Equipo industrial">Equipo industrial</option>
+                <option value="Casas rodantes">Casas rodantes</option>
+                <option value="Otro">Otro</option>
+              </select>
+            </div>
+            <div class="fg">
+              <label class="fl" for="fm">Cuéntanos qué buscas</label>
+              <textarea class="fi" id="fm" name="mensaje" rows="3" placeholder="Modelo, año, uso que le darás u otro detalle que debamos saber..."></textarea>
+            </div>
+            <button type="submit" class="btn-submit">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+              </svg>
+              Enviar por WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="map-card rev">
+      <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Av.+Independencia+S%2FN%2C+Tlaltizap%C3%A1n%2C+Morelos%2C+62770%2C+M%C3%A9xico" target="_blank" rel="noopener noreferrer" aria-label="Abrir la ubicación de Full Torque México en Google Maps">
+        <iframe
+          class="map-frame"
+          src="https://maps.google.com/maps?q=Av.+Independencia+S/N,+Tlaltizapan,+Morelos,+62770,+Mexico&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Ubicación de Full Torque México en Google Maps"
+          aria-hidden="true" tabindex="-1">
+        </iframe>
+        <span class="map-tag">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+          </svg>
+          Ver en Google Maps · Tlaltizapán, Morelos
+        </span>
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-logo">
+          <img src="imagenes/logo-full-torque.png" alt="Full Torque México" class="foot-logo-img">
+          <div class="logo-word">FULL <em>TORQUE</em></div>
+        </div>
+        <p class="foot-desc">Venta de maquinaria pesada, camiones, camionetas, autos, casas rodantes y equipo industrial en Tlaltizapán, Morelos. Unidades reales, información clara y atención directa.</p>
+        <div class="foot-social">
+          <a href="https://www.facebook.com/share/1BbaxXNoHU/" target="_blank" rel="noopener noreferrer" aria-label="Full Torque México en Facebook" class="foot-social-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.78-3.89 1.1 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12z"/></svg>
+          </a>
+          <a href="https://wa.me/527771327400" target="_blank" rel="noopener noreferrer" aria-label="Full Torque México en WhatsApp" class="foot-social-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347M12.05 21.79h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <p class="foot-col-title">Categorías</p>
+        <ul class="foot-links">
+          <li><a href="#services">Maquinaria Pesada</a></li>
+          <li><a href="#services">Camiones y Pickups</a></li>
+          <li><a href="#services">Autos y SUV</a></li>
+          <li><a href="#services">Casas Rodantes</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="foot-col-title">Inventario</p>
+        <ul class="foot-links">
+          <li><a href="#inventario">Excavadora CAT 320E</a></li>
+          <li><a href="#inventario">Ford F-450 Chasis Cabina</a></li>
+          <li><a href="#inventario">Casa Rodante Toy Hauler</a></li>
+          <li><a href="#inventario">Ver inventario completo</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="foot-col-title">Contacto</p>
+        <ul class="foot-links">
+          <li><a href="tel:+527771327400">777 132 7400</a></li>
+          <li><a href="https://wa.me/527771327400" target="_blank" rel="noopener noreferrer">WhatsApp directo</a></li>
+          <li><a href="https://www.facebook.com/share/1BbaxXNoHU/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+          <li><a href="#contact">Cotizar Ahora</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>© 2026 <span>Full Torque México</span>. Todos los derechos reservados.</p>
+      <p>Tlaltizapán, Morelos, México</p>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING ACTION BUTTONS -->
+<div class="fab-stack">
+  <div class="fab-item">
+    <span class="fab-tip">Síguenos en Facebook</span>
+    <a href="https://www.facebook.com/share/1BbaxXNoHU/"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="fab-btn fb-btn"
+       aria-label="Visitar Full Torque México en Facebook">
+      <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+        <path fill="#fff" d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.78-3.89 1.1 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12z"/>
+      </svg>
+    </a>
+  </div>
+  <div class="fab-item">
+    <span class="fab-tip">Escríbenos por WhatsApp</span>
+    <a href="https://wa.me/527771327400"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="fab-btn wa-btn"
+       aria-label="Contactar por WhatsApp">
+      <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
+        <path fill="#fff" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+      </svg>
+    </a>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO técnico -->
+  <title>Servicios Integrales 3D | Pintura, impermeabilización, señalización vial y servicios industriales en SLP</title>
+  <meta name="description" content="Servicios Integrales 3D ofrece pintura, impermeabilización profesional, corte láser, tablaroca, señalización vial, boyas viales y servicios industriales en San Luis Potosí y alrededores.">
+  <meta name="keywords" content="Servicios Integrales 3D, impermeabilización San Luis Potosí, señalización vial SLP, boyas viales, corte láser, tablaroca, pintura industrial, Airless Technology">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Servicios Integrales 3D | Soluciones técnicas en San Luis Potosí">
+  <meta property="og:description" content="Soluciones integrales para pintura, impermeabilización, corte láser, señalización vial, boyas viales y servicios industriales especializados.">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Recursos externos -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Tailwind config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Montserrat', 'Inter', 'sans-serif']
+          },
+          colors: {
+            brand: {
+              navy: '#0B2545',
+              orange: '#F2732A',
+              yellow: '#FFC627',
+              graphite: '#111111',
+              steel: '#6B7280',
+              soft: '#F5F7FA'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="hero.css">
+</head>
+
+<body class="font-sans text-brand-graphite bg-white">
+
+  <!-- Loader premium -->
+  <div id="page-loader" aria-hidden="true" role="status">
+    <div class="loader-panel">
+      <img src="assets/logo-si3d.svg" alt="Servicios Integrales 3D" class="loader-logo">
+      <div class="loader-scene">
+        <div class="loader-scan"></div>
+        <div class="loader-ring"></div>
+        <i class="fa-solid fa-bolt-lightning"></i>
+      </div>
+      <p class="loader-label">Cargando soluciones<span>.</span><span>.</span><span>.</span></p>
+      <div class="loader-bar-wrap"><div class="loader-bar"></div></div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header w-full py-4 px-5 md:px-10">
+    <div class="max-w-7xl mx-auto flex items-center justify-between gap-4">
+      <a href="#hero-section" class="brand-lockup" aria-label="Ir al inicio">
+        <img src="assets/logo-si3d.svg" alt="Servicios Integrales 3D" class="brand-logo">
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navegación principal">
+        <a href="#servicios">Servicios</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#galeria">Trabajos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <a href="https://wa.me/524401077770?text=Hola%20Servicios%20Integrales%203D%2C%20quiero%20solicitar%20una%20cotizaci%C3%B3n." target="_blank" rel="noopener noreferrer" class="header-wa">
+        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+        <span>WhatsApp</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero-section" id="hero-section" aria-label="Inicio">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-image"></div>
+        <canvas id="hero-canvas"></canvas>
+        <div class="hero-grid"></div>
+      </div>
+
+      <div class="hero-inner">
+        <div class="h-badge" data-reveal style="--d:0ms">
+          <span class="badge-live-dot" aria-hidden="true"></span>
+          <i class="fa-solid fa-helmet-safety badge-icon" aria-hidden="true"></i>
+          <span>San Luis Potosí y alrededores · Atención inmediata 24/7</span>
+        </div>
+
+        <h1 class="h-title font-display" data-reveal style="--d:160ms">
+          Soluciones integrales que
+          <span class="h-title-accent" id="typewriter">marcan el camino</span>
+        </h1>
+
+        <p class="h-subtitle" data-reveal style="--d:330ms">
+          Pintura, impermeabilización, rótulos, corte láser, tablaroca, señalización vial, boyas y servicios industriales especializados con seguridad, calidad y durabilidad.
+        </p>
+
+        <div class="h-ctas" data-reveal style="--d:510ms">
+          <a href="#contacto" class="cta-primary">
+            <span class="cta-shine" aria-hidden="true"></span>
+            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+            <span>Solicitar cotización</span>
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </a>
+          <a href="#servicios" class="cta-secondary">
+            <span>Ver servicios</span>
+            <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </a>
+        </div>
+
+        <div class="h-stats" data-reveal style="--d:680ms">
+          <div class="h-stat">
+            <span class="stat-n"><span data-count="7">0</span></span>
+            <span class="stat-lbl">Líneas de servicio</span>
+          </div>
+          <div class="stat-sep" aria-hidden="true"></div>
+          <div class="h-stat">
+            <span class="stat-n"><span data-count="3">0</span></span>
+            <span class="stat-lbl">Teléfonos por especialidad</span>
+          </div>
+          <div class="stat-sep" aria-hidden="true"></div>
+          <div class="h-stat">
+            <span class="stat-n"><span data-count="24">0</span>/7</span>
+            <span class="stat-lbl">Atención inmediata</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="float-card fc-1" data-reveal style="--d:860ms" aria-hidden="true">
+        <div class="fc-icon"><i class="fa-solid fa-shield-halved"></i></div>
+        <div class="fc-text"><strong>Seguridad que se ve</strong><span>Calidad que dura</span></div>
+      </div>
+      <div class="float-card fc-2" data-reveal style="--d:980ms" aria-hidden="true">
+        <div class="fc-icon"><i class="fa-solid fa-location-dot"></i></div>
+        <div class="fc-text"><strong>Nosotros vamos</strong><span>SLP y alrededores</span></div>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="services-section py-20 md:py-28 bg-brand-soft" aria-label="Servicios">
+      <div class="section-particles" aria-hidden="true"></div>
+      <div class="max-w-7xl mx-auto px-5 md:px-8">
+        <div class="section-heading section-anim-title" data-reveal>
+          <span class="section-label">Servicios Integrales 3D</span>
+          <h2 class="section-title font-display">Todo para proteger, marcar y transformar tus espacios</h2>
+          <p>Soluciones técnicas para proyectos residenciales, comerciales e industriales, con comunicación clara desde la cotización hasta la entrega.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card" data-reveal>
+            <img src="assets/flyer-waterproofing.webp" alt="Impermeabilización profesional con acrílicos, elastoméricos y asfálticos">
+            <div class="service-body">
+              <span>01</span>
+              <h3>Impermeabilización profesional</h3>
+              <p>Impermeabilizantes acrílicos, elastoméricos, asfálticos en frío o caliente y fibratados para proyectos residenciales, comerciales e industriales.</p>
+            </div>
+          </article>
+          <article class="service-card" data-reveal>
+            <img src="assets/work-signage.webp" alt="Rótulo corporativo instalado en fachada industrial">
+            <div class="service-body">
+              <span>02</span>
+              <h3>Rótulos y corte láser</h3>
+              <p>Números residenciales, nombres de escuelas, rótulos para negocios, placas conmemorativas y diseños personalizados.</p>
+            </div>
+          </article>
+          <article class="service-card" data-reveal>
+            <img src="assets/work-vial-01.webp" alt="Trabajo real de pintura y acabado en área vial exterior">
+            <div class="service-body">
+              <span>03</span>
+              <h3>Pintura y acabados</h3>
+              <p>Aplicación de pintura en general para mejorar imagen, protección y durabilidad en espacios operativos y comerciales.</p>
+            </div>
+          </article>
+          <article class="service-card" data-reveal>
+            <img src="assets/flyer-road.webp" alt="Señalización vial con líneas para carretera y estacionamientos">
+            <div class="service-body">
+              <span>04</span>
+              <h3>Señalización vial y seguridad</h3>
+              <p>Líneas para carretera, estacionamientos, señalética, topes de caucho, boyas viales y microesfera reflectante.</p>
+            </div>
+          </article>
+          <article class="service-card" data-reveal>
+            <img src="assets/flyer-bollards.webp" alt="Venta e instalación de boyas viales con atención inmediata">
+            <div class="service-body">
+              <span>05</span>
+              <h3>Boyas viales</h3>
+              <p>Venta e instalación de boyas viales, con precios especiales para fraccionamientos, escuelas y revendedores.</p>
+            </div>
+          </article>
+          <article class="service-card" data-reveal>
+            <img src="assets/work-sandblasting.webp" alt="Servicio industrial de sandblasting aplicado a maquinaria pesada">
+            <div class="service-body">
+              <span>06</span>
+              <h3>Servicios industriales</h3>
+              <p>Airless Technology: epóxicos, poliuretanos, sandblasting, autonivelantes, rapel, hamaca, plataformas y andamios con personal DC3.</p>
+            </div>
+          </article>
+          <article class="service-card service-card-wide service-note-card" data-reveal>
+            <div class="service-note-visual" aria-hidden="true">
+              <img src="assets/logo-si3d.svg" alt="">
+              <i class="fa-solid fa-layer-group"></i>
+            </div>
+            <div class="service-body">
+              <span>07</span>
+              <h3>Tablaroca</h3>
+              <p>Instalación y acabados en tablaroca para adecuaciones interiores con ejecución limpia y funcional.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proceso -->
+    <section class="feature-split" id="proceso" aria-label="Cómo funciona el proceso">
+      <div class="feature-bg fixed-bg" aria-hidden="true"></div>
+      <div class="max-w-7xl mx-auto px-5 md:px-8 grid grid-cols-1 lg:grid-cols-2 gap-0 items-stretch">
+        <div class="fs-img-col" data-reveal>
+          <img src="assets/work-vial-02.webp" alt="Trabajo real de aplicación de recubrimiento en zona vial exterior" loading="lazy">
+          <div class="fs-img-badge">
+            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+            <span>Calidad y servicio que dan tranquilidad</span>
+          </div>
+        </div>
+
+        <div class="fs-text-col" data-reveal>
+          <span class="section-label">Cómo trabajamos</span>
+          <h2 class="section-title font-display">Un proceso simple para cotizar sin vueltas</h2>
+          <p>La contratación debe sentirse clara desde el primer mensaje. Por eso el flujo se resume en tres pasos prácticos.</p>
+
+          <div class="fs-steps">
+            <div class="fs-step">
+              <div class="fs-step-n">Paso 01</div>
+              <div class="fs-step-info">
+                <strong>Cuéntanos qué necesitas</strong>
+                <p>Elige el servicio, comparte medidas, fotos o ubicación general del proyecto y te orientamos por WhatsApp.</p>
+              </div>
+            </div>
+            <div class="fs-step">
+              <div class="fs-step-n">Paso 02</div>
+              <div class="fs-step-info">
+                <strong>Definimos alcance y materiales</strong>
+                <p>Revisamos el tipo de superficie, uso del espacio, acabado requerido y condiciones de instalación.</p>
+              </div>
+            </div>
+            <div class="fs-step">
+              <div class="fs-step-n">Paso 03</div>
+              <div class="fs-step-info">
+                <strong>Ejecutamos con seguimiento</strong>
+                <p>Coordinamos la visita o instalación y mantenemos comunicación durante el avance del trabajo.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#contacto" class="fs-cta">
+            Cotizar mi proyecto
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galería -->
+    <section id="galeria" class="gallery-section py-20 bg-white" aria-label="Galería de trabajos reales">
+      <div class="max-w-7xl mx-auto px-5 md:px-8">
+        <div class="section-heading section-anim-title" data-reveal>
+          <span class="section-label">Trabajos reales</span>
+          <h2 class="section-title font-display">Evidencia visual del trabajo en campo</h2>
+          <p>Imágenes proporcionadas dentro del proyecto. Cada pieza se usa como referencia real del tipo de ejecución y servicios comunicados por la marca.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item gallery-large" data-reveal>
+            <img src="assets/work-vial-01.webp" alt="Aplicación de recubrimiento en área exterior industrial">
+            <figcaption>Aplicación de recubrimiento en área exterior industrial.</figcaption>
+          </figure>
+          <figure class="gallery-item" data-reveal>
+            <img src="assets/work-vial-02.webp" alt="Acabado vial exterior en zona de tránsito">
+            <figcaption>Acabado vial exterior en zona de tránsito.</figcaption>
+          </figure>
+          <figure class="gallery-item" data-reveal>
+            <img src="assets/work-sandblasting.webp" alt="Sandblasting aplicado en maquinaria industrial">
+            <figcaption>Sandblasting aplicado en maquinaria industrial.</figcaption>
+          </figure>
+          <figure class="gallery-item" data-reveal>
+            <img src="assets/work-signage.webp" alt="Rótulo corporativo instalado en estructura exterior">
+            <figcaption>Rótulo corporativo instalado en estructura exterior.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Por qué elegirnos -->
+    <section id="beneficios" class="benefits-section py-20 md:py-28 bg-brand-soft" aria-label="Por qué elegirnos">
+      <div class="section-particles alt" aria-hidden="true"></div>
+      <div class="max-w-7xl mx-auto px-5 md:px-8">
+        <div class="section-heading section-anim-title" data-reveal>
+          <span class="section-label">Por qué elegirnos</span>
+          <h2 class="section-title font-display">Experiencia, calidad y compromiso en cada proyecto</h2>
+        </div>
+
+        <div class="benefits-grid">
+          <article class="benefit-card" data-reveal>
+            <span class="benefit-number">01</span>
+            <h3>Soluciones integrales</h3>
+            <p>Una sola marca para resolver pintura, impermeabilización, señalización, corte láser, tablaroca y servicios industriales.</p>
+          </article>
+          <article class="benefit-card" data-reveal>
+            <span class="benefit-number">02</span>
+            <h3>Enfoque técnico</h3>
+            <p>Selección de procesos y materiales según superficie, tránsito, uso, exposición y nivel de durabilidad requerido.</p>
+          </article>
+          <article class="benefit-card" data-reveal>
+            <span class="benefit-number">03</span>
+            <h3>Atención inmediata</h3>
+            <p>La comunicación 24/7 aparece en sus líneas de boyas viales e industriales para proyectos que requieren respuesta rápida.</p>
+          </article>
+          <article class="benefit-card" data-reveal>
+            <span class="benefit-number">04</span>
+            <h3>Trabajo especializado</h3>
+            <p>Servicios industriales con Airless Technology, trabajos en altura y personal certificado DC3 según el material proporcionado.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Números -->
+    <section class="testimonials-section stats-band py-20" aria-label="Números del negocio">
+      <div class="stats-bg fixed-bg" aria-hidden="true"></div>
+      <div class="max-w-6xl mx-auto px-5 md:px-8">
+        <div class="section-heading light section-anim-title" data-reveal>
+          <span class="section-label">Datos verificables</span>
+          <h2 class="section-title font-display">Indicadores claros, sin inflar promesas</h2>
+        </div>
+        <div class="business-stats">
+          <div class="business-stat" data-reveal>
+            <strong><span data-count="7">0</span></strong>
+            <span>Servicios documentados</span>
+          </div>
+          <div class="business-stat" data-reveal>
+            <strong><span data-count="3">0</span></strong>
+            <span>Líneas de contacto</span>
+          </div>
+          <div class="business-stat" data-reveal>
+            <strong><span data-count="24">0</span>/7</strong>
+            <span>Atención inmediata mencionada</span>
+          </div>
+          <div class="business-stat" data-reveal>
+            <strong>DC3</strong>
+            <span>Personal certificado en servicios industriales</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Logística -->
+    <section class="logistics-section py-20 bg-white" aria-label="Cómo trabajamos">
+      <div class="max-w-7xl mx-auto px-5 md:px-8">
+        <div class="logistics-box">
+          <div class="logistics-copy" data-reveal>
+            <span class="section-label">Cobertura y líneas</span>
+            <h2 class="font-display">Cada servicio tiene una ruta directa de atención</h2>
+            <p>Se identificaron teléfonos distintos por línea de servicio. El sitio los mantiene separados para que cada cotización llegue al canal más adecuado.</p>
+          </div>
+          <div class="logistics-items">
+            <a href="https://wa.me/524401921424?text=Hola%20Servicios%20Integrales%203D%2C%20quiero%20cotizar%20corte%20l%C3%A1ser%20o%20r%C3%B3tulos." target="_blank" rel="noopener noreferrer" class="logistics-item" data-reveal>
+              <i class="fa-solid fa-compass-drafting" aria-hidden="true"></i>
+              <strong>440 192 1424</strong>
+              <span>Corte láser, rótulos y placas</span>
+            </a>
+            <a href="https://wa.me/524401077770?text=Hola%20Servicios%20Integrales%203D%2C%20quiero%20cotizar%20impermeabilizaci%C3%B3n%20o%20se%C3%B1alizaci%C3%B3n%20vial." target="_blank" rel="noopener noreferrer" class="logistics-item" data-reveal>
+              <i class="fa-solid fa-road" aria-hidden="true"></i>
+              <strong>440 107 7770</strong>
+              <span>Impermeabilización y señalización vial</span>
+            </a>
+            <a href="https://wa.me/524443914094?text=Hola%20Servicios%20Integrales%203D%2C%20quiero%20cotizar%20boyas%20viales%20o%20servicios%20industriales." target="_blank" rel="noopener noreferrer" class="logistics-item" data-reveal>
+              <i class="fa-solid fa-industry" aria-hidden="true"></i>
+              <strong>444 391 4094</strong>
+              <span>Boyas viales y servicios industriales</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact-section py-20 md:py-28 bg-brand-soft" aria-label="Contacto">
+      <div class="max-w-7xl mx-auto px-5 md:px-8">
+        <div class="section-heading section-anim-title" data-reveal>
+          <span class="section-label">Solicita cotización</span>
+          <h2 class="section-title font-display">Hablemos de tu proyecto</h2>
+          <p>Completa el formulario y se abrirá WhatsApp con el mensaje listo. No se envía correo ni queda cargando.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info-panel" data-reveal>
+            <img src="assets/work-signage.webp" alt="Rótulo corporativo instalado como trabajo real de Servicios Integrales 3D" loading="lazy">
+            <div class="contact-data">
+              <h3>Servicios Integrales 3D</h3>
+              <p><i class="fa-solid fa-location-dot"></i> San Luis Potosí y alrededores</p>
+              <p><i class="fa-solid fa-envelope"></i> <a href="mailto:serviciosintegrales3d@gmail.com">serviciosintegrales3d@gmail.com</a></p>
+              <p><i class="fa-brands fa-facebook"></i> <a href="https://www.facebook.com/share/1Ckw6RtCWh/" target="_blank" rel="noopener noreferrer">@serviciosintegrales3D</a></p>
+              <p><i class="fa-solid fa-clock"></i> Atención inmediata 24/7 en líneas señaladas</p>
+            </div>
+            <iframe title="Mapa de cobertura en San Luis Potosí" src="https://www.google.com/maps?q=San%20Luis%20Potos%C3%AD%2C%20M%C3%A9xico&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+          <div class="contact-form-wrap" data-reveal>
+            <h3>Cotización por WhatsApp</h3>
+            <p>Selecciona el servicio para dirigir tu mensaje al teléfono correspondiente.</p>
+
+            <form action="#" method="POST" class="contact-form" novalidate>
+              <div class="form-row">
+                <label for="nombre" class="sr-only">Nombre completo</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre completo" required autocomplete="name">
+                <label for="telefono" class="sr-only">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Teléfono de contacto" required autocomplete="tel">
+              </div>
+              <label for="email" class="sr-only">Correo electrónico</label>
+              <input type="email" id="email" name="email" placeholder="Correo electrónico (opcional)" autocomplete="email">
+              <label for="servicio" class="sr-only">Servicio de interés</label>
+              <select id="servicio" name="servicio" required>
+                <option value="" disabled selected>Servicio de interés</option>
+                <option value="impermeabilizacion" data-phone="524401077770">Impermeabilización profesional</option>
+                <option value="senalizacion" data-phone="524401077770">Señalización vial y seguridad</option>
+                <option value="laser" data-phone="524401921424">Rótulos y corte láser</option>
+                <option value="boyas" data-phone="524443914094">Venta e instalación de boyas viales</option>
+                <option value="industrial" data-phone="524443914094">Servicios industriales especializados</option>
+                <option value="pintura" data-phone="524401077770">Pintura</option>
+                <option value="tablaroca" data-phone="524401077770">Tablaroca</option>
+              </select>
+              <label for="mensaje" class="sr-only">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos medidas, zona, tipo de superficie o cualquier detalle útil..."></textarea>
+              <button type="submit" class="btn-submit">
+                <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                Enviar por WhatsApp
+              </button>
+              <p class="form-note">Se abrirá WhatsApp con tu mensaje prellenado.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Banner WhatsApp -->
+    <section class="whatsapp-banner py-12" aria-label="Contacto WhatsApp">
+      <div class="max-w-5xl mx-auto px-5 md:px-8">
+        <div class="wa-banner-inner" data-reveal>
+          <p>¿Necesitas respuesta rápida?</p>
+          <a href="https://wa.me/524401077770?text=Hola%20Servicios%20Integrales%203D%2C%20quiero%20solicitar%20una%20cotizaci%C3%B3n." target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+            Contactar ahora
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer py-14 text-white" aria-label="Pie de página">
+    <div class="max-w-7xl mx-auto px-5 md:px-8 footer-grid">
+      <div>
+        <img src="assets/logo-si3d.svg" alt="Servicios Integrales 3D" class="footer-logo">
+        <p class="footer-tagline">Protegemos lo que más importa. Soluciones que marcan el camino.</p>
+      </div>
+      <nav aria-label="Links del footer">
+        <strong>Menú</strong>
+        <a href="#servicios">Servicios</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#galeria">Trabajos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <nav aria-label="Servicios del footer">
+        <strong>Servicios</strong>
+        <a href="#servicios">Impermeabilización</a>
+        <a href="#servicios">Señalización vial</a>
+        <a href="#servicios">Corte láser</a>
+        <a href="#servicios">Servicios industriales</a>
+      </nav>
+      <div class="footer-social">
+        <strong>Redes</strong>
+        <a href="https://www.facebook.com/share/1Ckw6RtCWh/" target="_blank" rel="noopener noreferrer" aria-label="Facebook de Servicios Integrales 3D">
+          <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Servicios Integrales 3D. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Botón flotante WhatsApp -->
+  <div class="whatsapp-fab" role="complementary" aria-label="Chat por WhatsApp">
+    <a href="https://wa.me/524401077770?text=Hola%20Servicios%20Integrales%203D%2C%20quiero%20solicitar%20una%20cotizaci%C3%B3n." target="_blank" rel="noopener noreferrer" class="wa-btn" aria-label="Abrir WhatsApp">
+      <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+    </a>
+    <span class="wa-label">Cotizar</span>
+  </div>
+
+  <script src="hero-animations.js" defer></script>
+  <script src="main.js" defer></script>
+</body>
+</html>
