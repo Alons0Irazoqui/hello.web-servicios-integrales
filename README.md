@@ -20,7 +20,8 @@
 | **Nombre del negocio** | Servicios Integrales 3D |
 | **Correo electrónico** | serviciosintegrales3d@gmail.com |
 | **Facebook** | https://www.facebook.com/share/1Ckw6RtCWh/ |
-| **Usuario / redes sociales** | @serviciosintegrales3D |
+| **Instagram** | https://www.instagram.com/rotulistasslp/ |
+| **Usuario / redes sociales** | @serviciosintegrales3D / @rotulistasslp |
 | **Zona de cobertura** | San Luis Potosí y alrededores |
 | **Disponibilidad** | Atención inmediata 24/7 (mencionada en servicios de boyas viales e industriales) |
 
@@ -30,7 +31,7 @@ Se identificaron distintos números asociados a distintas líneas de servicio en
 
 - **440 192 1424** — Corte láser / rótulos y placas
 - **440 107 7770** — Impermeabilización / señalización vial
-- **444 391 4094** — Boyas viales / servicios industriales
+- **444 391 4094** — Director Ing. Edgar Ríos / WhatsApp de negocio
 
 ### Servicios que ofrece
 
@@ -102,7 +103,7 @@ El sitio debe incluir:
 ## 6. Instrucciones sobre assets
 
 - El **logo** debe usarse **sin fondo**. Si el archivo de logo disponible viene con fondo, el desarrollador debe removerlo antes de integrarlo al sitio (herramienta de remoción de fondo, edición manual, o generación de una versión limpia con Claude Code).
-- **Nota:** en la carpeta `imagenes/` provista no se identificó un archivo de logo independiente; el contenido disponible corresponde a flyers publicitarios de cada línea de servicio. Si el cliente entrega un logo posteriormente, aplicar la instrucción anterior (remover fondo) antes de usarlo. Mientras tanto, tomar la paleta y tipografía definidas en este documento como guía de identidad visual.
+- **Logo oficial:** usar `assets/logo-oficial-si3d.webp` en header, loader, footer y favicon derivado cuando aplique.
 - Optimizar/comprimir las imágenes antes de integrarlas al sitio para no afectar el rendimiento de carga.
 
 ---

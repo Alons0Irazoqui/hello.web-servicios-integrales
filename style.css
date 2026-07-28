@@ -910,7 +910,9 @@ a {
 
 .footer-logo {
   width: min(300px, 84vw);
-  filter: brightness(0) invert(1);
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, .94);
 }
 
 .footer-tagline {
@@ -942,6 +944,12 @@ a {
 
 .site-footer a:hover {
   color: var(--yellow);
+}
+
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .footer-social a {
